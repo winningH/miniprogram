@@ -1,0 +1,16 @@
+{
+  "name": "getBooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wx-server-sdk": "~2.3.0",
+    "axios": "^0.19.2",
+    "doubanbook": "^1.0.1"
+  }
+}

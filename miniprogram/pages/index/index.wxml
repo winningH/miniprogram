@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <button class="btn" type="primary" bindtap="getSum">求和</button>
+
+  <button class="btn" type="primary" bindtap="getRunData">微信运动步数</button>
+
+  <button class="btn" type="primary" bindtap="getBooks">扫码识书</button>
+
+  <image src="{{imageurl}}" mode="widthFix"></image>
+  <view>{{title}}</view>
+</view>
