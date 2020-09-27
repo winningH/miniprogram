@@ -19,8 +19,6 @@ async function getDoubanBook(isbn) {
   return res
 }
 
-getDoubanBook("978711143474")
-
 // 云函数入口函数
 exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
